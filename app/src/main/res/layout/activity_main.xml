@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+    <TextView
+            android:id="@+id/tv"
+            android:text="广播输出的结果显示区"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </TextView>
+
+    <EditText
+            android:id="@+id/edit"
+            android:layout_below="@id/tv"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </EditText>
+
+    <!--<RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit"
+            android:layout_marginTop="20dip">
+
+        <RadioButton
+                android:id="@+id/radio_broadcast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="广播方式输出"/>
+
+        <RadioButton
+                android:id="@+id/radio_emulate_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="模拟键方式输出"/>
+
+        <RadioButton
+                android:id="@+id/radio_fill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="直接填充方式输出"/>
+
+    </RadioGroup>-->
+
+    <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit"
+            android:layout_marginTop="20dip"
+            android:text="清空">
+    </Button>
+</RelativeLayout>
