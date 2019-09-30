@@ -12,7 +12,6 @@ import android.widget.*;
 public class MainActivity extends AppCompatActivity {
     private TextView textView;
     private EditText editText;
-    //private RadioGroup radioGroup;
     private Button reset;
 
     Context myContext;
